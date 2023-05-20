@@ -1,0 +1,4 @@
+Algoritmo MYNAME
+	ESCRIBIR"ROSA_MAGALI_LOPEZ_TOCAY"
+	
+FinAlgoritmo
