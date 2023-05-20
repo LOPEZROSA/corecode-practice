@@ -1,0 +1,7 @@
+Algoritmo NOMBREYEDAD
+	ESCRIBIR"ROSA_MAGALI_LOPEZ"
+	
+	ESCRIBIR"28"
+	
+	
+FinAlgoritmo
