@@ -1,0 +1,17 @@
+Algoritmo numeroespecial
+Leer n
+
+Si n==100 Entonces
+	imprimir " Este numero es especial"
+sino 
+	si n < 1000 & n%10 == 0 Entonces
+		escribir " Este numero es Casi especial"
+		sino
+		si n<>100 Entonces
+			escribir "solo un numero Regular"
+		FinSi
+		
+	FinSi
+FinSi
+FinAlgoritmo
+	
