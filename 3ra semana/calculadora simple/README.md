@@ -1,4 +1,5 @@
-Algoritmo calculadorasimple
+  
+	```algoritmo  calculadorasencilla
 	n1= 0;
 	n2= 0;
 	menu= 0;
@@ -27,5 +28,7 @@ Algoritmo calculadorasimple
 			
 		De Otro Modo:
 			Escribir " La Operacion No Es Valida"
-	FinSegun
-	FinAlgoritmo
+	
+finsegun
+        finalgoritmo```
+	
