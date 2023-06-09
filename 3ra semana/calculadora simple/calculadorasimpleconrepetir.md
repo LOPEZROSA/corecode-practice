@@ -1,0 +1,27 @@
+```Algoritmo calculadorasimpleconrepetir
+	Repetir
+		n1=0;
+		n2=0;
+		Escribir "Ingrese primer valor"
+		Leer n1
+		Escribir "Ingrese segundo valor"
+		Leer n2
+		Escribir "¿Que operacion deseas Realizar?"
+		Leer op
+	
+		si op== "+" | op=="-" | op=="*" | op== "/" Entonces
+			escribir "Procesando: ", + convertirATexto(n1) + " " + op +" " +convertirATexto(n2)
+		finsi
+		segun op Hacer
+			"+": Escribir "Resultado:", + convertirATexto(n1+n2)
+			"-": Escribir "Resultado:", + convertirATexto(n1-n2)
+			"*": Escribir "Resultado:", + convertirATexto(n1*n2)
+			"/": Escribir "Resultado:", + ConvertirATexto(n1/n2)
+				
+			De Otro Modo:
+				imprimir "Operación Invalida"
+		finsegun
+		Escribir "Deseas continuar? si/no"
+		leer Seguir
+	Hasta Que seguir == "no"
+	finalgoritmo```
